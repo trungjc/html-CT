@@ -14,3 +14,24 @@ body {
 h1,h2,h3,h4,h5 {
   font-family: 'Montserrat' , sans-serif;
 }
+.app-header{
+    background: black;
+    padding: 20px 0px 20px 0px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.menu {
+  float: right;
+
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li a{
+  color: white;
+  font-weight: bold;
+  d
+}
