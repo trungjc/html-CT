@@ -18,20 +18,31 @@ h1,h2,h3,h4,h5 {
     background: black;
     padding: 20px 0px 20px 0px;
 }
-
+.app-header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
-.menu {
-  float: right;
 
-}
 .menu ul {
   list-style: none;
+  display: flex;
 }
+
 .menu ul li a{
   color: white;
   font-weight: bold;
-  d
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px 10px 20px;
+}
+
+.menu ul li:last-child a{
+  color: #ffcb0b;
+  border: 2px solid #ffcb0b;
+  border-radius: 30px; 
 }
