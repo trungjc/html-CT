@@ -66,6 +66,16 @@ h1,h2,h3,h4,h5 {
 .app-hero__item-img img{
   width:100%
 }
+.app-hero__item-img::after{
+  content: "";
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: #000000;;
+  left:0;
+  top:0;
+  opacity: 0.8;
+}
 .app-hero__item{
   position: relative;
 }
@@ -101,4 +111,8 @@ h1,h2,h3,h4,h5 {
   width:188px;
   display: block;
   text-align: center;
+}
+.column__img{
+  padding-left: 15px;
+  padding-right: 15px;
 }
