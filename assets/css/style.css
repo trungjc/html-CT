@@ -2,6 +2,7 @@
 * {
   padding:0;
   margin:0;
+  box-sizing: border-box;
 }
 
 body {
@@ -112,7 +113,73 @@ h1,h2,h3,h4,h5 {
   display: block;
   text-align: center;
 }
-.column__img{
-  padding-left: 15px;
-  padding-right: 15px;
+.list-item{
+  display: flex;
+}
+.featured-work {
+  text-align: center;
+  padding:60px 0;
+}
+.featured-work h2{
+  margin-bottom: 20px;
+}
+.item{
+  margin: 10px 20px 10px 20px;
+  width:50%;
+  position: relative;
+}
+.item__img img{
+  width:100%
+}
+.item__img{
+  width:100%;
+}
+.item__body{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  color: white;
+  padding:20px;
+  background-image: linear-gradient(180deg, transparent, black);
+  width:100%;
+}
+.item__body h3,.item__body p{
+  margin: 0 0 10px 0;
+}
+.item__body .button{
+  color: white;
+  border: 2px solid white;
+  background:none;
+  width:auto;
+  display: inline-block;
+}
+.brand{
+  display:flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.brand-item {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+}
+.brand-item img{
+  max-width: 77px;
+}
+.brand-container{
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom:60px;
+  background-image: url(http://channelt.project-staging.com/assets/images/bg-home.png?fbclid=IwAR2-xg6Xs0VH3FCn8RaOmqmC2_7POXDEBLa5l2EUhwN7ujR2eySzHLRvP70);
+}
+.container{
+  max-width: 970px;
+  position: relative;
 }
